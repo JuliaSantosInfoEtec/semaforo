@@ -29,7 +29,7 @@ for (const botao of botoes){
         },1000);
 
         }
-    }
+    }else{
            clearInterval(intervalid);
             automaticoAtivo = false;
         img.setAttribute("src", `./img/${botao.id}.png`);
